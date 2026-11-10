@@ -16,7 +16,7 @@ Both scripts work on Junos releases with or without the `page` knob on the `test
 | JUNIPER-1T | 740-131168, 740-131169 | Yes | Yes | Yes |
 | JUNIPER-2E | 740-157138 | Yes | Yes | Yes |
 | JUNIPER-1A | 740-151745 | Yes | Yes | Yes (incl. `DSPLOL`) |
-| JUNIPER-1A | 740-179331 | No | Yes | No |
+| JUNIPER-1A | 740-179331 | Yes | Yes | No |
 
 Unsupported modules are reported as `UNSUPPORTED` (`xcvr_tools.py`) or rejected with `Module not supported` (`cdc.py`).
 

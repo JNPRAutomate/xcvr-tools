@@ -133,7 +133,7 @@ class changeCDC():
             self.jpn = jpn
         elif jpn == "JUNIPER-2E" and xcvr.jpn == '740-157138':
             self.jpn = jpn
-        elif jpn == "JUNIPER-1A" and xcvr.jpn == '740-151745':
+        elif jpn == "JUNIPER-1A" and (xcvr.jpn == '740-151745' or xcvr.jpn == '740-179331'):
             self.jpn = jpn
         else:
             sys.exit("Module not supported")
